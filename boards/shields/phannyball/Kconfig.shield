@@ -1,0 +1,6 @@
+config SHIELD_PHANNYBALL_LEFT
+    def_bool $(shields_list_contains,phannyball_left)
+  
+config SHIELD_PHANNYBALL_RIGHT
+    def_bool $(shields_list_contains,phannyball_right)
+  
